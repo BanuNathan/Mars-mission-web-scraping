@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mar Missionr</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+  <div class="container"> 
+    <div class="container-fluid">
+      <div class="jumbotron text-center">
+        <h1>MARS Mission Brought to you by NASA</h1>
+        <p>Mars Adventure</p>
+        <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Get Data!</a></p>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          
+        </div>
+        <!-- Second of two columns -->
+        <div class="col-md-4">
+          
+        </div>
+
+        <div class="col-md-6">
+          
+          <h1>Latest information about Mars</h1>
+          <img src="{{ space.mars_img }}" alt="Mars">
+          
+        </div>
+      </div>
+    
+      
+      
+      <!--<table>Mars Data:{{ space.mars_data }} </table>-->
+      </div>
+    
+
+
+
+  
+    <div class="row">
+      <!-- Second of two columns -->
+      <div class="col-md-2">
+        
+      </div>
+   
+
+      <div class="col-md-8">
+        <h1> {{ space.news_title }}</h1>
+        
+      </div>
+    </div>
+
+
+    <div class = "row">
+      <div class="col-md-12">
+        <h1> </h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+
+      </div>
+      <div class="col-md-10">
+        <h1>Latest News: {{ space.news_p }}</h1>
+      </div>
+    </div>
+
+      
+    <div class="row">
+      
+
+      <div class="col-md-4">
+        <table><h3>{{ space.mars_facts | safe }} </h3></table>
+
+    </div>
+     
+     
+
+      <div class="col-md-4">
+          <div class="card" style="width: 24rem;">
+            <h3>valles marineris enhanced</h3>
+            <a href="temperature.html">
+            <img target="_blank" src="{{ space.image_url1 }}" class="card-img-top" alt="valles marineris enhanced"> </a>
+          </div>
+      </div>
+      <div class="col-md-4">
+        <h3>cerberus enhanced</h3>
+        <div class="card" style="width: 24rem;">
+          <a href="wind.html">
+          <img target="_blank" src="{{ space.image_url2 }}" class="card-img-top" alt="cerberus enhanced"></a>
+      </div>
+      
+    </div>
+
+
+    <div class="row">
+      <div class="col-md-4">
+       
+       
+      </div>
+      <div class = "col-md-4">
+        <h3>schiaparelli enhanced</h3>
+        <div class="card" style="width: 24rem;">
+          <a href="cloud.html">
+          <img target="_blank" src= "{{ space.image_url3 }}" class="card-img-top" alt="schiaparelli enhanced"> </a>
+        </div>   
+      </div>
+      <div class = "col-md-4">
+        <h3>syrtis major enhanced</h3>
+        <div class="card" style="width: 24rem;">
+          <a href="humidity.html">
+          <img target="_blank" src="{{ space.image_url4 }}" class="card-img-top" alt="syrtis major enhanced"> </a>
+        </div>   
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+  
+</body>
+</html>
+
