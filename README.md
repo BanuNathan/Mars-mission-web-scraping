@@ -13,10 +13,9 @@
 ### Started by converting the Jupyter notebook into a Python script called scrape_mars.py with a function called scrape that will execute all of the  
 ### scraping code from above and return one Python dictionary containing all of the scraped data.
 
-### Next, created a route called /scrape that will import the scrape_mars.py script and call the scrape function.
+### Next, created a route called /scrape that will import the scrape_mars.py script and called the scrape function.
 
 ### Stored the return value in Mongo as mars_mongo database as a Python dictionary.
-### Create a root route / that will query the Mongo database and pass the mars data into an HTML template to display the data.
+### Created a root route / that will query the Mongo database and pass the mars data into an HTML template to display the data.
 
-### Created a template HTML file called index.html that will take the mars data dictionary and display all of the data in the appropriate HTML elements. The final website will look as belownn
-
+### Created a template HTML file called index.html that will take the mars data dictionary and displayed all of the data in the appropriate HTML elements. 
