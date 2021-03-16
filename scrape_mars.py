@@ -44,6 +44,7 @@ def scrape_info():
         df.set_index('Description', inplace=True)
         return df.to_html(classes="table table-striped")
 
+    # to get the urls
     def featured_image(browser):
         url = 'https://data-class-jpl-space.s3.amazonaws.com/JPL_Space/index.html'
         browser.visit(url)
