@@ -1,7 +1,7 @@
                                                                    
 <img src= "https://github.com/BanuNathan/web-scraping-challenge/blob/master/website.png">
-# Mars Mission 
-## Built a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page.
+### Mars Mission 
+### Built a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page.
 
 ### URLs visited :
 #### https://mars.nasa.gov/news/?page=0&per_page=40&order=publish_date+desc%2Ccreated_at+desc&search=&category=19%2C165%2C184%2C204&blank_scope=Latest
@@ -19,3 +19,4 @@
 ### Created a root route / that will query the Mongo database and pass the mars data into an HTML template to display the data.
 
 ### Created a template HTML file called index.html that will take the mars data dictionary and displayed all of the data in the appropriate HTML elements. 
+ 
