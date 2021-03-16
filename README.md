@@ -17,5 +17,5 @@
 ### Stored the return value in Mongo as mars_mongo database as a Python dictionary.
 ### Create a root route / that will query the Mongo database and pass the mars data into an HTML template to display the data.
 
-### Created a template HTML file called index.html that will take the mars data dictionary and display all of the data in the appropriate HTML elements. The final website will look as below:
+### Created a template HTML file called index.html that will take the mars data dictionary and display all of the data in the appropriate HTML elements. The final website will look as belownn
 
