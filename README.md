@@ -2,9 +2,10 @@
 # Mars Mission 
 ## Built a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page.
 
-### URLs visited :https://mars.nasa.gov/news/?page=0&per_page=40&order=publish_date+desc%2Ccreated_at+desc&search=&category=19%2C165%2C184%2C204&blank_scope=Latest
-###               https://space-facts.com/mars/
-###               https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars
+### URLs visited :
+#### https://mars.nasa.gov/news/?page=0&per_page=40&order=publish_date+desc%2Ccreated_at+desc&search=&category=19%2C165%2C184%2C204&blank_scope=Latest
+####               https://space-facts.com/mars/
+####               https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars
 #
 # Used MongoDB with Flask templating to create a new HTML page that displays all of the information that was scraped from the URLs above.
 
