@@ -7,7 +7,7 @@
 ####               https://space-facts.com/mars/
 ####               https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars
 #
-# Used MongoDB with Flask templating to create a new HTML page that displays all of the information that was scraped from the URLs above.
+#### Used MongoDB with Flask templating to create a new HTML page that displays all of the information that was scraped from the URLs above.
 
 # Started by converting the Jupyter notebook into a Python script called scrape_mars.py with a function called scrape that will execute all of the  
 # scraping code from above and return one Python dictionary containing all of the scraped data.
