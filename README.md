@@ -1,5 +1,5 @@
                                                                    
-<img src= "https://github.com/BanuNathan/web-scraping-challenge/blob/master/website.png">
+<img src= "https://github.com/BanuNathan/web-scraping-challenge/blob/master/website.png  ">
 
 
 ### Mars Mission 
@@ -25,5 +25,5 @@
 
 ### Used Pymongo for CRUD applications for database. 
 
-### Uses Bootstrap to structure the HTML template.
+### Used Bootstrap to structure the HTML template.
  
