@@ -1,6 +1,7 @@
-                                                                   
-### Mars Mission 
-<img src= "https://github.com/BanuNathan/web-scraping-challenge/blob/master/website.png  ">
+# <div align="center">Mars Mission </div>                                                                 
+
+
+<img src= "https://github.com/BanuNathan/web-scraping-challenge/blob/master/website.png" height = 400 width = 99999>
 
 
 
